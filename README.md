@@ -1,0 +1,2 @@
+# Proxy Experiments with Docker Compose
+In this repo, I play around with [nginx](https://nginx.org/en/) (or, to be precise, [OpenResty](https://openresty.org/en/), i.e. nginx w/ Lua) and simple example services to figure out how proxies work and how one can be configured with nginx.
