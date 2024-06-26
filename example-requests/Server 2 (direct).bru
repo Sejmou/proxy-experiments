@@ -1,0 +1,15 @@
+meta {
+  name: Server 2 (direct)
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:3001/what-is-my-ip
+  body: none
+  auth: none
+}
+
+docs {
+  Tries to get IP address directly from API server 2. The server is accessed via the port exposed to localhost from a local Docker Compose multi-container application.
+}
